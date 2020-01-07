@@ -29,7 +29,7 @@ It looked like this - not that there are no bars on the right:
 
 ![bad mic](https://raw.githubusercontent.com/smu4242/Microphone-Visualizer/master/bad_mic.gif)
 
-After selecting the correct mic, it looked like this. All of the spectrum is now picked up:
+After selecting the correct mic, it looked like this. The whole spectrum is now picked up:
 
 ![good mic](https://raw.githubusercontent.com/smu4242/Microphone-Visualizer/master/good_mic.gif)
 
