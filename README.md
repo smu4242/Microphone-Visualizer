@@ -25,7 +25,7 @@ In obs studio, you have NO option to select a microphone. The only workaround I 
 
 I stumbled upon this because my secondary mic has much worse quality.
 
-It looked like this - not that there are no bars on the right:
+It looked like this - note that there are no bars on the right:
 
 ![bad mic](https://raw.githubusercontent.com/smu4242/Microphone-Visualizer/master/bad_mic.gif)
 
