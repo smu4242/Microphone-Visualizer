@@ -23,11 +23,13 @@ In a browser like Chrome, you can set the used microphone to your preferred devi
 
 In obs studio, you have NO option to select a microphone. The only workaround I found for this is to disable all other microphones in windows settings. Then restart obs. It should then pick up the correct microphone.
 
-I stumbled upon this because my secondary mic has much worse quality. It looked like this
+I stumbled upon this because my secondary mic has much worse quality.
+
+It looked like this - not that there are no bars on the right:
 
 ![bad mic](https://raw.githubusercontent.com/smu4242/Microphone-Visualizer/master/bad_mic.gif)
 
-After selecting the correct mic, it looked like this:
+After selecting the correct mic, it looked like this. All of the spectrum is now picked up:
 
 ![good mic](https://raw.githubusercontent.com/smu4242/Microphone-Visualizer/master/good_mic.gif)
 
