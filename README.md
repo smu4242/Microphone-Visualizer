@@ -7,8 +7,6 @@ https://smu4242.github.io/Microphone-Visualizer/
 
 and click the button to allow the microphone. That's it.
 
-
-
 ## In a broadcaster software like obs studio
 
 1) Close obs. Then start obs with --enable-media-stream. Checkout the file obs_with_browser_media_support.cmd for windows. You might need to adjust the path to make it work.
@@ -27,6 +25,11 @@ In obs studio, you have NO option to select a microphone. The only workaround I 
 
 I stumbled upon this because my secondary mic has much worse quality. It looked like this
 
+![bad mic](https://raw.githubusercontent.com/smu4242/Microphone-Visualizer/master/bad_mic.gif)
+
+After selecting the correct mic, it looked like this:
+
+![good mic](https://raw.githubusercontent.com/smu4242/Microphone-Visualizer/master/good_mic.gif)
 
 
 # Credits
