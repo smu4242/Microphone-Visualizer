@@ -22,11 +22,11 @@ window.onload = function () {
         analyser.fftSize = 1024;
 
         var frequencyArray = new Uint8Array(analyser.frequencyBinCount);
-        //visualizer.setAttribute('viewBox', '0 0 255 255');
+        visualizer.setAttribute('viewBox', '0 0 255 255');
       
         //Through the frequencyArray has a length longer than 255, there seems to be no
         //significant data after this point. Not worth visualizing.
-        for (var i = 0 ; i < 255; i++) {
+        for (var i = 0 ; i < 259; i++) {
             path = document.createElementNS('http://www.w3.org/2000/svg', 'path');
 	    line = document.createElementNS('http://www.w3.org/2000/svg', 'line');
 	    //<line x1="100%" y1="0%" x2="0%" y2="100%" style="stroke: rgb(234, 243, 234);stroke-width: 5;"></line>
