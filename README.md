@@ -1,3 +1,7 @@
-## Welcome to GitHub Pages
+## How to Start
 
-https://github.com/smu4242/Microphone-Visualizer/edit/master/README.md
+Go to 
+https://smu4242.github.io/Microphone-Visualizer/
+
+and click the button to allow the microphone.
+
