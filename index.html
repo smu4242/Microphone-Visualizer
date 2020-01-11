@@ -1,30 +1,30 @@
 </<!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Visualizer</title>
-    <link rel="stylesheet" href="/Microphone-Visualizer/style.css">
-    <script src="/Microphone-Visualizer/script.js" type="text/javascript"></script>
-  </head>
-  <body>
-    HELLO 7
-    <svg preserveAspectRatio="none" id="visualizer" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-            <defs>
-
-                <mask id="mask">
-                    <g id="maskGroup">
-                  </g>
-                </mask>
-                <linearGradient id="gradient" x1="0%" y1="0%" x2="0%" y2="100%">
-                    <stop offset="0%" style="stop-color:#ff0a0a;stop-opacity:1" />
-                    <stop offset="20%" style="stop-color:#f1ff0a;stop-opacity:1" />
-                    <stop offset="90%" style="stop-color:#d923b9;stop-opacity:1" />
-                    <stop offset="100%" style="stop-color:#050d61;stop-opacity:1" />
-                </linearGradient>
-            </defs>
-            <rect x="0" y="0" width="100%" height="100%" fill="url(#gradient)" mask="url(#mask)"></rect>
+    <head>
+        <meta charset="utf-8">
+        <title>Visualizer</title>
+        <link rel="stylesheet" href="/Microphone-Visualizer/style.css">
+        <script src="/Microphone-Visualizer/script.js"
+            type="text/javascript"></script>
+    </head>
+    <body>
+        HELLO 7
+        <svg viewBox="0 0 100 100"
+            preserveAspectRatio="none"
+            id="visualizer"
+            version="1.1"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink">
+            <g id="target"/>
+            <linearGradient id="myGradient" gradientTransform="rotate(90)"
+                gradientUnits="userSpaceOnUse">
+                <stop offset="0%"   stop-color="#ff0a0a" />
+                <stop offset="25%"  stop-color="#f1ff0a" />
+                <stop offset="90%"  stop-color="#d923b9" />
+                <stop offset="100%" stop-color="#050d61" />
+            </linearGradient>
         </svg>
 
-<h1>In <a href="https://codepen.io/zapplebee/full/gbNbZE/">Full Page view</a>, please allow the use of your microphone</h1>
-  </body>
+        <h1>In Please allow the use of your microphone 🎤 in the browser </h1>
+    </body>
 </html>

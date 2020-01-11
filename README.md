@@ -2,7 +2,7 @@
 
 ## In a normal Browser
 
-Go to 
+Go to
 https://smu4242.github.io/Microphone-Visualizer/
 
 and click the button to allow the microphone. That's it.
@@ -33,6 +33,15 @@ After selecting the correct mic, it looked like this. The whole spectrum is now 
 
 ![good mic](https://raw.githubusercontent.com/smu4242/Microphone-Visualizer/master/good_mic.gif)
 
+
+## Configuration
+
+You can configure:
+* The number of bars shown: "numBars" Default is 256
+* The width of the gap between each bar "gapWidth" Default is 0.5. Reasonable values are between 0.1 and 2.0
+
+An example with all parameters set explicitly:
+https://smu4242.github.io/Microphone-Visualizer/?numBars=12&gapWidth=0.3
 
 # Credits
 
